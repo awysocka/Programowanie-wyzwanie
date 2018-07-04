@@ -1,0 +1,15 @@
+ @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Roboto&subset=latin-ext');
+
+body {
+	
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Amatic SC', cursive;
+    font-size: 16px;
+    color: #333;
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
