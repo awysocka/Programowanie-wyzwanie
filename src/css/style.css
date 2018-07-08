@@ -1,15 +1,37 @@
  @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Roboto&subset=latin-ext');
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	
     font-family: 'Roboto', sans-serif;
     font-family: 'Amatic SC', cursive;
     font-size: 16px;
     color: #333;
-
+    margin: 0;
 }
 
-* {
-	box-sizing: border-box;
+header {
+	background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9);
+	height: 80px;
 }
+
+.nav-logo {
+	float: left;
+	color: #e00986;
+	margin: 0;
+	padding-left: 15px;
+	line-height: 80px;
+}
+
+nav ul {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
 
