@@ -78,6 +78,18 @@ DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="a
 		</div>
 	</section>
 	<footer>
+		<form action="form.php" method="POST">
+			<label for="name">Imię</label>
+			<input type="text" name="name" id="name" required/>
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" required/>
+			<label for="message">Wiadomości</label>
+			<textarea name="message" id="message" rows="3" required/></textarea>
+			<input type="submit" name="submit" value="Wyślij">
+			<input type="reset" name="submit" value="Usuń dane">
+
+
+		</form>
 		<p>&#169 Strona stworzona przez <a href="https://bedeprogramistka.pl" target="_blank">BedeProgramistka.pl</a></p>
 	</footer>
 		
