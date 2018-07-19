@@ -21,6 +21,7 @@ header {
 .nav-logo {
 	float: left;
 	color: #e00986;
+	font-size: 25px;
 	margin: 0;
 	padding-left: 15px;
 	line-height: 80px;
